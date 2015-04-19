@@ -1,0 +1,43 @@
+div {
+    display: inline-block;
+    position: absolute;
+}
+
+.game-window {
+    display: block;
+    background-color: white;
+    width: 900px;
+    height: 600px;
+}
+
+.grass {
+    background: url("assets/grass.jpeg") repeat-x;
+}
+
+.spike {
+    background: url("assets/spike.jpeg") repeat-x;
+}
+
+.base {
+    background: url("assets/home-base.jpeg") no-repeat;
+}
+
+.spawn {
+    background: url("assets/spawn.jpeg") no-repeat;
+}
+
+.trigger {
+    background: url("assets/trigger.jpeg") no-repeat;
+}
+
+.grunt {
+    background: url("assets/grunt.jpeg") no-repeat;
+}
+
+.controls {
+    display: block;
+    top: 900px;
+    width: 900px;
+    height: 100px;
+    background-color: dimgrey;
+}

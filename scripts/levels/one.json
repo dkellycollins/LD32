@@ -1,0 +1,46 @@
+{
+  "name": "Level One",
+  "map": [
+    {
+      "type": "grass",
+      "position": [400, 90],
+      "height": 30,
+      "width": 500
+    },
+    {
+      "type": "grass",
+      "position": [0, 300],
+      "height": 30,
+      "width": 500
+    },
+    {
+      "type": "spike",
+      "position": [0, 570],
+      "height": 30,
+      "width": 900
+    },
+    {
+      "type": "base",
+      "position": [0, 240],
+      "height": 60,
+      "width": 120
+    },
+    {
+      "type": "spawn",
+      "position": [840, 60],
+      "height": 30,
+      "width": 30,
+      "timeout": 0,
+      "enemies": [
+        "grunt"
+      ]
+    },
+    {
+      "type": "trigger",
+      "number": 1,
+      "position": [180, 270],
+      "height": 60,
+      "width": 30
+    }
+  ]
+}
